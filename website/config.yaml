@@ -1,0 +1,27 @@
+baseURL: https://devrev.wyracocha.com
+languageCode: es-pe
+title: "DevRev"
+theme: "PaperMod"
+params:
+  profileMode:
+    enabled: true
+    #title: "<Title>" # optional default will be site title
+    subtitle: "Podcast de tecnología"
+    #imageUrl: "<image link>" # optional
+    #imageTitle: "<title of image as alt>" # optional
+    #imageWidth: 120 # custom size
+    #imageHeight: 120 # custom size
+    buttons:
+      - name: Posts
+        url: "/posts"
+      - name: Patreon
+        url: "https://google.com"
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/wyracocha/devrev"
+    - name: "soundcloud"
+      url: ""
+    - name: "twitter"
+      url: ""
+    - name: "youtube"
+      url: ""
